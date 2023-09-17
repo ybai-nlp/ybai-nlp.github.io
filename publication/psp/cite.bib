@@ -1,0 +1,18 @@
+@inproceedings{liu-etal-2022-psp,
+    title = "{PSP}: Pre-trained Soft Prompts for Few-Shot Abstractive Summarization",
+    author = "Liu, Xiaochen  and
+      Gao, Yang  and
+      Bai, Yu  and
+      Li, Jiawei  and
+      Hu, Yinan  and
+      Huang, Heyan  and
+      Chen, Boxing",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.553",
+    pages = "6355--6368",
+    abstract = "Few-shot abstractive summarization has become a challenging task in natural language generation. To support it, we developed a novel soft prompts architecture coupled with a prompt pre-training plus prompt fine-tuning paradigm, which is effective and tunes only extremely light parameters. To meet the structure of the generation models, the soft prompts comprise continuous input embeddings across an encoder and a decoder. Importantly, a new inner-prompt placed in the text is introduced to capture document-level information. The aim is to devote attention to understanding the document that better prompts the model to generate document-related content. In the training process, the prompt pre-training with self-supervised pseudo-data firstly teaches the model basic summarizing capability. Then, with few-shot examples, only the designed lightweight soft prompts are fine-tuned. Experimental results on the CNN/DailyMail and XSum datasets show that our method, with only 0.1{\%} of the parameters, outperforms full-model tuning where all model parameters are tuned. It also surpasses Prompt Tuning by a large margin and delivers competitive results against Prefix-Tuning with 3{\%} of the parameters.",
+}

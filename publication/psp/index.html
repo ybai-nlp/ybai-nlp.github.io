@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="An example talk using Wowchemy&#39;s Markdown slides feature." />
+  <meta name="description" content="Few-shot abstractive summarization has become a challenging task in natural language generation. To support it, we developed a novel soft prompts architecture coupled with a prompt pre-training plus prompt fine-tuning paradigm, which is effective and tunes only extremely light parameters. To meet the structure of the generation models, the soft prompts comprise continuous input embeddings across an encoder and a decoder. Importantly, a new inner-prompt placed in the text is introduced to capture document-level information. The aim is to devote attention to understanding the document that better prompts the model to generate document-related content. In the training process, the prompt pre-training with self-supervised pseudo-data firstly teaches the model basic summarizing capability. Then, with few-shot examples, only the designed lightweight soft prompts are fine-tuned. Experimental results on the CNN/DailyMail and XSum datasets show that our method, with only 0.1% of the parameters, outperforms full-model tuning where all model parameters are tuned. It also surpasses Prompt Tuning by a large margin and delivers competitive results against Prefix-Tuning with 3% of the parameters." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ybai-nlp.github.io/talk/example-talk/" />
+  <link rel="alternate" hreflang="en-us" href="https://ybai-nlp.github.io/publication/psp/" />
 
   
 
@@ -280,7 +280,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu9fd76e0e38f0ea645710911caa0a2624_343662_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9fd76e0e38f0ea645710911caa0a2624_343662_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://ybai-nlp.github.io/talk/example-talk/" />
+  <link rel="canonical" href="https://ybai-nlp.github.io/publication/psp/" />
 
   
   
@@ -291,31 +291,35 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Yu Bai" />
-  <meta property="og:url" content="https://ybai-nlp.github.io/talk/example-talk/" />
-  <meta property="og:title" content="Example Talk | Yu Bai" />
-  <meta property="og:description" content="An example talk using Wowchemy&#39;s Markdown slides feature." /><meta property="og:image" content="https://ybai-nlp.github.io/talk/example-talk/featured.jpg" />
-    <meta property="twitter:image" content="https://ybai-nlp.github.io/talk/example-talk/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://ybai-nlp.github.io/publication/psp/" />
+  <meta property="og:title" content="PSP: Pre-trained Soft Prompts for Few-Shot Abstractive Summarization | Yu Bai" />
+  <meta property="og:description" content="Few-shot abstractive summarization has become a challenging task in natural language generation. To support it, we developed a novel soft prompts architecture coupled with a prompt pre-training plus prompt fine-tuning paradigm, which is effective and tunes only extremely light parameters. To meet the structure of the generation models, the soft prompts comprise continuous input embeddings across an encoder and a decoder. Importantly, a new inner-prompt placed in the text is introduced to capture document-level information. The aim is to devote attention to understanding the document that better prompts the model to generate document-related content. In the training process, the prompt pre-training with self-supervised pseudo-data firstly teaches the model basic summarizing capability. Then, with few-shot examples, only the designed lightweight soft prompts are fine-tuned. Experimental results on the CNN/DailyMail and XSum datasets show that our method, with only 0.1% of the parameters, outperforms full-model tuning where all model parameters are tuned. It also surpasses Prompt Tuning by a large margin and delivers competitive results against Prefix-Tuning with 3% of the parameters." /><meta property="og:image" content="https://ybai-nlp.github.io/media/icon_hu9fd76e0e38f0ea645710911caa0a2624_343662_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://ybai-nlp.github.io/media/icon_hu9fd76e0e38f0ea645710911caa0a2624_343662_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2017-01-01T00:00:00&#43;00:00"
+        content="2023-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2030-06-01T13:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-01-01T00:00:00&#43;00:00">
   
 
   
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -323,43 +327,30 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://ybai-nlp.github.io/talk/example-talk/"
+    "@id": "https://ybai-nlp.github.io/publication/psp/"
   },
-  "name": "Example Talk",
+  "headline": "PSP: Pre-trained Soft Prompts for Few-Shot Abstractive Summarization",
   
-  "location": {
-    "@type": "Place",
-    "name": "Wowchemy HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
-  },
+  "datePublished": "2023-01-01T00:00:00Z",
+  "dateModified": "2023-01-01T00:00:00Z",
   
-  
-  "image": [
-    "https://ybai-nlp.github.io/talk/example-talk/featured.jpg"
-  ],
-  
-  "startDate": "2030-06-01T13:00:00Z",
-  
-  "endDate": "2030-06-01T15:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
-    "name": "Yu Bai"
+    "name": "Xiaochen Liu"
   },
   
-  "description": "An example talk using Wowchemy's Markdown slides feature."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yu Bai",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ybai-nlp.github.io/media/icon_hu9fd76e0e38f0ea645710911caa0a2624_343662_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Few-shot abstractive summarization has become a challenging task in natural language generation. To support it, we developed a novel soft prompts architecture coupled with a prompt pre-training plus prompt fine-tuning paradigm, which is effective and tunes only extremely light parameters. To meet the structure of the generation models, the soft prompts comprise continuous input embeddings across an encoder and a decoder. Importantly, a new inner-prompt placed in the text is introduced to capture document-level information. The aim is to devote attention to understanding the document that better prompts the model to generate document-related content. In the training process, the prompt pre-training with self-supervised pseudo-data firstly teaches the model basic summarizing capability. Then, with few-shot examples, only the designed lightweight soft prompts are fine-tuned. Experimental results on the CNN/DailyMail and XSum datasets show that our method, with only 0.1% of the parameters, outperforms full-model tuning where all model parameters are tuned. It also surpasses Prompt Tuning by a large margin and delivers competitive results against Prefix-Tuning with 3% of the parameters."
 }
 </script>
 
@@ -369,15 +360,17 @@
 
   
 
+  
 
 
 
 
-  <title>Example Talk | Yu Bai</title>
+
+  <title>PSP: Pre-trained Soft Prompts for Few-Shot Abstractive Summarization | Yu Bai</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a8edef490afe42206247b6ac05657af0" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="43c3274c041084f35226fdde77cf6152" >
 
   
   
@@ -635,7 +628,16 @@
   </div>
 
   <div class="page-body">
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -650,33 +652,49 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1>PSP: Pre-trained Soft Prompts for Few-Shot Abstractive Summarization</h1>
+
+  
+
   
     
-  
-
-
-<div class="article-container pt-3">
-  <h1>Example Talk</h1>
-
-  
-
-  
 
 
 <div class="article-metadata">
 
   
   
+  
+  
+  <div>
+    
 
+  <span >
+      Xiaochen Liu</span>, <span >
+      Yang Gao</span>, <span class="author-highlighted">
+      Yu Bai</span>, <span >
+      Jiawei Li</span>, <span >
+      Yinan Hu</span>, <span >
+      Heyan Huang</span>, <span >
+      Boxing Chen</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2023
+  </span>
   
 
   
@@ -695,7 +713,7 @@
 
 </div>
 
-  
+    
 
 
 
@@ -712,56 +730,40 @@
 
 
   
-
-
-
-
-
-
-
-
-
-  
     
   
 
 
 
-
-  
-
-
-
+<a class="btn btn-outline-primary btn-page-header" href="https://aclanthology.org/2022.coling-1.553/" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
-  </a>
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/psp/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
-  <div style="position: relative">
-    <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/bzdhc5b3Bxs" target="_blank" rel="noopener"><strong>Unsplash</strong></a></span>
-  </div>
+  
 </div>
 
 
@@ -769,33 +771,20 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Few-shot abstractive summarization has become a challenging task in natural language generation. To support it, we developed a novel soft prompts architecture coupled with a prompt pre-training plus prompt fine-tuning paradigm, which is effective and tunes only extremely light parameters. To meet the structure of the generation models, the soft prompts comprise continuous input embeddings across an encoder and a decoder. Importantly, a new inner-prompt placed in the text is introduced to capture document-level information. The aim is to devote attention to understanding the document that better prompts the model to generate document-related content. In the training process, the prompt pre-training with self-supervised pseudo-data firstly teaches the model basic summarizing capability. Then, with few-shot examples, only the designed lightweight soft prompts are fine-tuned. Experimental results on the CNN/DailyMail and XSum datasets show that our method, with only 0.1% of the parameters, outperforms full-model tuning where all model parameters are tuned. It also surpasses Prompt Tuning by a large margin and delivers competitive results against Prefix-Tuning with 3% of the parameters.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Wowchemy Conference
+            <a href="/publication/#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -810,12 +799,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Wowchemy HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Proceedings of the 29th International Conference on Computational Linguistics</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -825,21 +810,21 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      <div class="alert alert-note">
+    <div class="article-style"><!-- <div class="alert alert-note">
   <div>
-    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   </div>
 </div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements</a> such as image galleries, can be added to the body of this page.</p>
 
-    </div>
+
+<div class="alert alert-note">
+  <div>
+    Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
+  </div>
+</div>
+ -->
+<!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
+</div>
 
     
 
@@ -861,7 +846,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://ybai-nlp.github.io/talk/example-talk/&amp;text=Example%20Talk" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://ybai-nlp.github.io/publication/psp/&amp;text=PSP:%20Pre-trained%20Soft%20Prompts%20for%20Few-Shot%20Abstractive%20Summarization" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -874,7 +859,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://ybai-nlp.github.io/talk/example-talk/&amp;t=Example%20Talk" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://ybai-nlp.github.io/publication/psp/&amp;t=PSP:%20Pre-trained%20Soft%20Prompts%20for%20Few-Shot%20Abstractive%20Summarization" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -887,7 +872,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=https://ybai-nlp.github.io/talk/example-talk/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=PSP:%20Pre-trained%20Soft%20Prompts%20for%20Few-Shot%20Abstractive%20Summarization&amp;body=https://ybai-nlp.github.io/publication/psp/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -900,7 +885,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://ybai-nlp.github.io/talk/example-talk/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://ybai-nlp.github.io/publication/psp/&amp;title=PSP:%20Pre-trained%20Soft%20Prompts%20for%20Few-Shot%20Abstractive%20Summarization" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -913,7 +898,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Example%20Talk%20https://ybai-nlp.github.io/talk/example-talk/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=PSP:%20Pre-trained%20Soft%20Prompts%20for%20Few-Shot%20Abstractive%20Summarization%20https://ybai-nlp.github.io/publication/psp/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -926,7 +911,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://ybai-nlp.github.io/talk/example-talk/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://ybai-nlp.github.io/publication/psp/&amp;title=PSP:%20Pre-trained%20Soft%20Prompts%20for%20Few-Shot%20Abstractive%20Summarization" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -946,6 +931,19 @@
 
   
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
 
 
 
@@ -1023,6 +1021,31 @@
   </div>
 
 
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
